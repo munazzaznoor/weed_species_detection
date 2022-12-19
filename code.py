@@ -98,9 +98,7 @@ IMG_SIZE
 
 def get_image_label(image_path,label):
   image=process_image(image_path)
-  return image,label
-
-  
+  return image,label 
 
 BATCH_SIZE=32
 def crete_data_batches(x,y=None,batch_size=BATCH_SIZE,valid_data=False,test_data=False):
@@ -122,11 +120,7 @@ def crete_data_batches(x,y=None,batch_size=BATCH_SIZE,valid_data=False,test_data
     data=data.shuffle(buffer_size=len(x))
     data_batch=data.map(get_image_label).batch(BATCH_SIZE)
     return data_batch
-
-
-
-
-
+  
 
 train_data=crete_data_batches(x_train,y_train)
 val_data=crete_data_batches(x_val,y_val,valid_data=True)
