@@ -48,50 +48,11 @@ it gained during training to recognize drinks.
 
 ## PROCESS
 
-
-
-
-
 I. ORGANIZING DATA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 II. PROCESSING IMAGES
 
 III. BUILDING A MODEL
-
 
 IV. TRAINING AND MAKING PREDICTIONS ON SUBSET DATA
 
@@ -99,48 +60,7 @@ V. TRAINING MODEL ON FULL MODEL AND SAVE
 
 VI. PREDICTIONS  ON TEST AND CUSTOM IMAGES 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![result](https://github.com/munazzaznoor/weed_species_detection/blob/main/result.png?raw=true)
 ## FUTURE ENHANCEMENT
 The WeedBot should be able to suggest the CHEMICAL WEED KILLERS or Herbicides. 
 
