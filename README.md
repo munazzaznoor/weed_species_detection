@@ -29,8 +29,7 @@ SOFTWARE REQUIREMENTS:
 - PYTHON
 - TensorFlow
 - WINDOWS 10
-- AWS S3
-- DJango
+
 HARDWARE REQUIREMENTS:
 - Processor : Core i7
 - Hard Disk : 512 GB 
@@ -138,7 +137,7 @@ VI. PREDICTIONS  ON TEST AND CUSTOM IMAGES
 
 
 
-## EXECUTION
+
 
 
 
